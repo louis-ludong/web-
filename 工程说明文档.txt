@@ -1,0 +1,23 @@
+文件夹内所有文件为商城项目工程文件
+-------------------------------------------------
+在eclipse中需要将全部import进去
+因为该商城系统采用soa架构将商城各个功能模块化并分层开发展示
+工程采用maven工程管理
+相关导入依照maven进行。。。。。。。。。。。
+-------------------------------------------------------
+导入成功只需分步启动tomcat7 即可
+工程启动先后顺序：
+ssh-manager
+ssh-content
+ssh-search
+ssh-sso
+ssh-cart
+ssh-order
+ssh-manager-web(表现层工程)
+ssh-portal-web(表现层工程)
+ssh-order-web(表现层工程)
+ssh-search-web(表现层工程)
+ssh-sso-web(表现层工程)
+ssh-cart-web(表现层工程)
+ssh-item-web(表现层工程)
+全部启动成功即可。

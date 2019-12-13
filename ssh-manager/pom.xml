@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>cn.ssh</groupId>
+    <artifactId>ssh-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>cn.ssh</groupId>
+  <artifactId>ssh-manager</artifactId>
+  <packaging>pom</packaging>
+  <dependencies>
+  <dependency>
+  <groupId>cn.ssh</groupId>
+    <artifactId>ssh-common</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </dependency>
+
+  </dependencies>
+  <modules>
+  	<module>ssh-manager-pojo</module>
+  	<module>ssh-manager-dao</module>
+  	<module>ssh-manager-interface</module>
+  	<module>ssh-manager-service</module>
+  
+  </modules>
+  <!-- 配置tomcat插件 -->
+  <build>
+  <plugins>
+  <plugin>
+  <groupId>org.apache.tomcat.maven</groupId>
+  <artifactId>tomcat7-maven-plugin</artifactId>
+  <version>2.2</version>
+  <configuration>
+  <url>http://localhost:8080</url>
+  <server>tomcat7</server>
+  <username>admin</username>
+  <password>admin</password>
+  </configuration>
+  </plugin>
+  </plugins>
+  </build>
+</project>

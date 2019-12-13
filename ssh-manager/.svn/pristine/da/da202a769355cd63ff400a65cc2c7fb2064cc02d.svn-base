@@ -1,0 +1,9 @@
+package cn.ssh.service;
+
+import cn.ssh.pojo.TbItem;
+
+public interface ItemService {
+
+	TbItem geTbItembyId(long itemId);
+	
+}

@@ -1,0 +1,6 @@
+cn\ssh\search\message\ItemAddMessageListener.class
+cn\ssh\search\dao\SearchDao.class
+cn\ssh\search\mapper\ItemMapper.class
+cn\ssh\search\service\impl\SearchItemServiceImpl.class
+cn\ssh\search\message\MyMessageListener.class
+cn\ssh\search\service\impl\SearchServiceImpl.class

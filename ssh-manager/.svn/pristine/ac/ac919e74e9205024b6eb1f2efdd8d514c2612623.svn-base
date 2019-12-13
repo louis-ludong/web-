@@ -1,0 +1,30 @@
+package cn.ssh.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import cn.ssh.pojo.TbItem;
+import cn.ssh.service.ItemService;
+
+/**
+ * 商品管理controller
+ * @author Administrator
+ *
+ */
+@Controller
+
+public class ItemController {
+
+	@Autowired
+	private ItemService itemService;
+	
+	@RequestMapping("/item/{itemId}")
+	@ResponseBody
+	public TbItem geTbItemById(@PathVariable long itemId) {
+		TbItem tbItem=itemService.geTbItembyId(itemId);
+		return tbItem;
+	}
+}

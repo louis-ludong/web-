@@ -1,0 +1,3 @@
+cn\ssh\sso\controller\LoginController.class
+cn\ssh\sso\controller\RegitsterController.class
+cn\ssh\sso\controller\TokenController.class

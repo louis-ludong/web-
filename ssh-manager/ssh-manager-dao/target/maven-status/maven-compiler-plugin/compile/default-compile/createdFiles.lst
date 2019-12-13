@@ -1,0 +1,11 @@
+cn\ssh\mapper\TbUserMapper.class
+cn\ssh\mapper\TbContentMapper.class
+cn\ssh\mapper\TbOrderItemMapper.class
+cn\ssh\mapper\TbItemParamItemMapper.class
+cn\ssh\mapper\TbItemDescMapper.class
+cn\ssh\mapper\TbItemMapper.class
+cn\ssh\mapper\TbItemCatMapper.class
+cn\ssh\mapper\TbOrderMapper.class
+cn\ssh\mapper\TbItemParamMapper.class
+cn\ssh\mapper\TbOrderShippingMapper.class
+cn\ssh\mapper\TbContentCategoryMapper.class

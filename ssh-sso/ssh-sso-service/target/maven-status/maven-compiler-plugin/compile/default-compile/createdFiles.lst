@@ -1,0 +1,3 @@
+cn\ssh\sso\service\impl\LoginServiceImpl.class
+cn\ssh\sso\service\impl\RegisterServiceImpl.class
+cn\ssh\sso\service\impl\TokenServiceImpl.class
